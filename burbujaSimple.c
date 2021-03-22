@@ -79,9 +79,9 @@ int main(int argc, char *argv[])
 	//Algoritmo
 	//******************************************************************
 
-	for (i = 0; i < n - 1; i++)
+	for (i = 0; i < n - 2; i++)
 	{
-		for (j = 0; j < n - 1 - i; j++)
+		for (j = 0; j < n - 2 - i; j++)
 		{
 			if (numero[j] > numero[j + 1])
 			{
