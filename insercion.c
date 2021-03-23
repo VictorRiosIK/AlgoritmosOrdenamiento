@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "tiempo.h"
 void insercion(int *A, int n)
 {
     int temp, i, j;
